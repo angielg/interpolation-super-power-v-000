@@ -1,5 +1,5 @@
 colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
 def display_rainbow(any)
-  print "R: #{colors [0]},", " O: #{colors [1]},", " Y: #{colors [2]},", " G: #{colors [3]},", " B: #{colors [4]},", " I: #{colors [5]},", " V: #{colors [6]}"
+  print "R: #{any [0]},", " O: #{any [1]},", " Y: #{any [2]},", " G: #{any [3]},", " B: #{any [4]},", " I: #{any [5]},", " V: #{any [6]}"
 end
 display_rainbow(colors)
